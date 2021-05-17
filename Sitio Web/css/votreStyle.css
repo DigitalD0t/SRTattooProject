@@ -37,7 +37,6 @@ margin-top:20px;
   display:flex;
   align-items:center;
   margin-left:20px;
-font-size:3em;
 }
 .nav-main a{
   text-decoration: none;
@@ -50,16 +49,22 @@ font-size:3em;
   grid-auto-rows:minmax(100px, auto);
 
 }
+
 .nodeItems a{
-  font-size: 25px;
+  font-size: 30px;
+font-family: 'Angilla Tattoo Personal Use';
 }
+
  .nodeItems a:hover{
   color: rgba(250,250,250,.3);
 
 }
+
+
 .active{
   border-bottom: 3px solid rgba(250,250,250,.3);
 }
+
 .item1{
   grid-column: 2;
   grid-row: 1;
@@ -110,8 +115,15 @@ margin:auto;
 border:1px solid rgba(250, 250,250, .6);
 }
 
-h1, p{
+p {
 text-align:center;
+font-family: 'Angilla Tattoo Personal Use';
+font-size:3em
+}
+
+h1{
+text-align:center;
+font-size:5em;
 font-family: 'Angilla Tattoo Personal Use';
 }
 
@@ -230,14 +242,14 @@ border:1px solid rgba(250, 250,250, .6);
 
 }
 
-h1, p{
+h1, p, a{
 text-align:center;
 font-family: 'Angilla Tattoo Personal Use';
 }
 
 @font-face{
 font-family: 'Angilla Tattoo Personal Use';
-src: url('../ fuentes/'Angilla Tattoo Personal Use'.ttf') format ("truetype");
+src: url('../ fuentes/Angilla Tattoo Personal Use.ttf') format ("truetype");
 }
 
 
