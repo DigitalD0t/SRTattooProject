@@ -361,6 +361,8 @@ input:focus{
   align-items:center;
 }
 
+
+
 }
 
 /*smarth phones*/
@@ -508,6 +510,18 @@ grid-template-columns:repeat(5,1fr);
 grid-auto-rows:minmax(80px,auto);
 }
 
+.ourTeam{
+grid-column:1;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.fa-users{
+font-size:40px;
+color:#CFCFCF;
+}
+
 .fb{
 grid-column:2;
 display:flex;
@@ -545,8 +559,22 @@ align-items:center;
 font-size:40px;
 color:#CFCFCF;
 }
-.socialMedia .wa a:hover{
-  color:#3BD653;
+
+.plus{
+grid-column:5;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.plus a{
+  text-decoration: none;
+}
+
+.fa-plus{
+
+font-size:40px;
+color:#CFCFCF;
 }
 
 }
