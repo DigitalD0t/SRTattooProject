@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   <title>Citas</title>
   <link rel="icon" href="../img/sugarlogo.png" />
-  <link rel="stylesheet" href="../css/votreStyle.css" />
+  <link rel="stylesheet" href="../css/sugarStyle.css" />
   <link rel="stylesheet" href="../css/MediaQueriesResponsive.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 <link rel="stylesheet" href="../css/jquery-ui.css">
@@ -19,11 +19,11 @@
   <nav class="nav-main">
     <div class="brand" align="center">
       <img  src="../img/sugarlogo.png" class="logo" width="150px" height="150px" />
-      <p class="label">
+      <h1 class="label">
         Sugar Black Tatto
-      </p>
+      </h1>
       </div>
-      <div class="nodeItems">
+      <div class="nodeItems sugar">
           <div class="item1">
             <a href="../index.html" class="hide-on-small-only">Home</a>
             <a href="../index.html" class="hide-on-med-and-up"><i class="fas fa-home"></i></a>
@@ -52,8 +52,25 @@
     </nav>
     <div class="container">
       <h1>Agenda tu Cita</h1>
-    </div>
+      <form align="center">
+        <input type="text" id="name" placeholder="Tu Nombre" /><br />
+        <label for="name">*Nombre</label><br />
+        <input type="email" id="userMail" placeholder="Correo electronico" /><br />
+        <label for="userMail">*Correo</label><br />
+        <input type="tel" id="userNumber" />
+      <br />
+      <label for="number">*Número</label><br />
+      <input type="date" id="dia" value="2021-08-25" /><br />
+      <label for="date">*Programa Cita</label>
 
+    </form>
+    <br />
+    <br />
+      <blockquote>
+        Los campos marcados * son obligatorios
+      </blockquote>
+    </div>
+<!--pie de página móvil-->
     <div data-role="footer">
       <footer class="footerSp hide-on-med-and-up">
         <div class="socialMedia">
@@ -68,10 +85,22 @@
           </div>
         </div>
       </footer>
-
+<!--pie de página web-->
       <footer class="footerDkp hide-on-small-only">
-        <div class="SocialMedia">
-          <div class="fb"></div>
+        <div class="socialMedia">
+          <div class="fb">
+            <a href="https://www.facebook.com/sugarblacktattoo" target="_blank"><i class="fab fa-facebook"></i></a>
+          </div>
+          <div class="ins">
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+          <div class="wa">
+            <a href="https://wa.me/525532384061?text=Hola%20quisiera%20realizar%20una%20cotización%20"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="avisos">
+          <a href="ppriv.html" class="ppriv" target="_blank">Politica de Privacidad</a>
+          <a href="tc.html" class="tc" target="_blank">Términos y Condiciones</a>
         </div>
       </footer>
     </div>
