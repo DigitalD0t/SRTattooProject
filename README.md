@@ -1,2 +1,2 @@
 # SRTattooProject
-Digital Marketing and Development Project
+Digital Marketing Project
